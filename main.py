@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 
-app = Flask(__name__)
+main = Flask(__name__)
 
-@app.route('/')
+@main.route('/')
 def index():
     return render_template('peaceful_nuclear_explosions.html')
