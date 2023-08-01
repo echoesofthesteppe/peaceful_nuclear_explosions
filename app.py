@@ -7,4 +7,5 @@ app = Flask(__name__)
 def home():
     return render_template('peaceful_nuclear_explosions.html')
 
-
+if __name__ == '__main__':
+    app.run()
